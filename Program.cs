@@ -16,6 +16,8 @@ namespace Calculator
             Console.WriteLine(first + " + " + second + " = " + addition.Sum);
             Substraction substraction = new Substraction(first, second);
             Console.WriteLine(first + " - " + second + " = " + substraction.Sub);
+            Multiplication multiplication = new Multiplication(first, second);
+            Console.WriteLine(first + " * " + second + " = " + multiplication.Mul);
         }
     }
 }
