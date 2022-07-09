@@ -8,21 +8,9 @@ namespace Calculator
 {
     public class Multiplication
     {
-        public double firstNum;
-        public double secondNum;
-        public double mul;
-        public Multiplication(double _firstNum, double _secondNum)
+        public double mul(double firstNum, double secondNum)
         {
-            firstNum = _firstNum;
-            secondNum = _secondNum;
-        }
-        public double Mul
-        {
-            get
-            {
-                mul = firstNum * secondNum;
-                return mul;
-            }
+            return firstNum * secondNum;
         }
     }
 }

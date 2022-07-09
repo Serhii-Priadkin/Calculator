@@ -8,21 +8,9 @@ namespace Calculator
 {
     public class Addition
     {
-        public double firstNum;
-        public double secondNum;
-        public double sum;
-        public Addition(double _firstNum, double _secondNum)
+        public double add(double firstNum, double secondNum)
         {
-            firstNum = _firstNum;
-            secondNum = _secondNum;
-        }
-        public double Sum
-        {
-            get
-            {
-                sum = firstNum + secondNum;
-                return sum;
-            }
+            return firstNum + secondNum;
         }
     }
 }

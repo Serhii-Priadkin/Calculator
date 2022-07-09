@@ -12,12 +12,23 @@ namespace Calculator
         {
             double first = Convert.ToDouble(Console.ReadLine());
             double second = Convert.ToDouble(Console.ReadLine());
-            Addition addition = new Addition(first, second);
-            Console.WriteLine(first + " + " + second + " = " + addition.Sum);
-            Substraction substraction = new Substraction(first, second);
-            Console.WriteLine(first + " - " + second + " = " + substraction.Sub);
-            Multiplication multiplication = new Multiplication(first, second);
-            Console.WriteLine(first + " * " + second + " = " + multiplication.Mul);
+            int firstInt = Convert.ToInt32(Console.ReadLine());
+
+            Addition addition = new Addition();
+            Console.WriteLine(first + " + " + second + " = " + addition.add(first, second));
+
+            Subtraction subtraction = new Subtraction();
+            Console.WriteLine(first + " / " + second + " = " + subtraction.sub(first, second));
+
+            Multiplication multiplication = new Multiplication();
+            Console.WriteLine(first + " / " + second + " = " + multiplication.mul(first, second));
+
+            Division division = new Division();
+            Console.WriteLine(first + " / " + second + " = " + division.div(first, second));
+
+            Factorial factorial = new Factorial();
+            Console.WriteLine(firstInt + "!" +  " = " + factorial.fac(firstInt));
+
         }
     }
 }
