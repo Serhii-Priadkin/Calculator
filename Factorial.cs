@@ -15,5 +15,6 @@ namespace Calculator
             else
                 return firstNum * fac(firstNum - 1);
         }
+
     }
 }

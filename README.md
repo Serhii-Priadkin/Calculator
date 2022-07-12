@@ -16,9 +16,8 @@
    Input : 5!
    Output: 5! = 120
   
-   3)Square Root  | '√' (or other different
-                  |symbol with '\u003f'-unicode)
-   Input : √4
+   3)Square Root  | 'V' or 'v'
+   Input : V4
    Output: √4 = 2
   
    4)Raising power| '^' 
